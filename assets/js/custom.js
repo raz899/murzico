@@ -1,4 +1,4 @@
-if (document.cookie.indexOf('dialog') > 0) {
+if (document.cookie.indexOf('dialog') < 0) {
     const $dialog = document.createElement('dialog');
     const $dialogImg = document.createElement('img');
     const $dialogBtn = document.createElement('button');
